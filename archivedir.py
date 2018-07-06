@@ -1,4 +1,4 @@
-from listdir import listdirs,listfiles
+from .listdir import listdirs,listfiles
 from os import remove, rmdir
 from os.path import isdir
 from zipfile import ZipFile, ZIP_STORED
